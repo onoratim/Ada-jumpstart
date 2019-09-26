@@ -46,9 +46,10 @@ end
 # numbers, telling how many times the number appears in each set.
 # Does this two ways, first using the first hash, second using the
 # second hash.
-random_num = 0
-user_num = 0
-3.times do
+
+3.times do |random_num, user_num|
+  random_num = 0
+  user_num = 0
   puts "Enter a number to compare."
   compare_number = gets.chomp.to_i
   puts "Using only the first hash:"
